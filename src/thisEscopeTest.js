@@ -1,1 +1,3 @@
-const module = require('./thisEscopeModule')
+const moduleEscope = require('./thisEscopeModule')
+
+moduleEscope.sayHello()
